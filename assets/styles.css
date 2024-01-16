@@ -1,0 +1,272 @@
+@import url(/assets/reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+}
+header {
+    height: 30rem;
+    background-image: url(../assets/image/Header\ Background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 1rem;
+    box-sizing: border-box;
+}
+
+header h1 {
+    color: white;
+    text-align: center;
+    font-family: 'Luckiest Guy', cursive;
+    text-transform: uppercase;
+    margin-top: 4.5rem;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+header p {
+    display: flex;
+    max-width: 757px;
+    color: #FFF;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.container-bt{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 16px;
+}
+.bt-download {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 205px;
+    height: 44px;
+    flex-shrink: 0;
+    border-radius: 28px;
+    font-size: 16px;
+    color: black;
+    background: #FFF;
+    border: none;
+    font-family: 'Open Sans';
+}
+.bt-navegador {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 285px;
+    height: 44px;
+    font-size: 16px;
+    color: white;
+    background-color: #23272A;
+    border-radius: 28px;
+    border: none;
+    font-family: 'Open Sans';
+}
+
+section {
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: row;
+    gap: 27px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.conteudo-1 {
+    color: #23272A;
+    font-family: 'Open Sans';
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 70px;
+    flex-direction: column-reverse;
+}
+.section1 p {
+    color: #23272A;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+.section2 {
+    background-color: #F6F6F6;
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: row;
+    gap: 27px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    flex-direction: row-reverse;
+}
+.section2 p {
+    color: #23272A;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.section3 {
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: row;
+    gap: 27px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+
+}
+.section3 p {
+    color: #23272A;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+.section-4 {
+    display: flex;
+    background-color: #F6F6F6;
+    width: 100%;
+    height: auto;
+    flex-direction: row;
+    gap: 27px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    flex-direction: column;
+    padding: 40px 0px;
+    text-align: center;
+}
+.section-4 p {
+    color: #23272A;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+footer {
+    background: #23272A;
+    display: flex;
+    width: 1925px;
+    height: 100px;
+    padding: 15px 0px 15px 0px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+@media screen and (max-width: 500px) {
+    header{
+        display: flex;
+        width: 100%;
+        padding: 50px 40px;
+        height: 506px;
+        flex-shrink: 0;
+        background: url(./image/Header\ Background.png), lightgray -711.152px 0px / 343.529% 100% no-repeat;
+        background-size: cover;
+    }
+    header h1{
+        display: flex;
+        color: #FFF;
+        font-family: 'Luckiest Guy';
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        width: 278px;
+
+    }
+    header p {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        color: #FFF;
+        font-family: 'Open Sans';
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        width: 381px;
+        
+    }
+    .container-bt {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        position: relative;
+        align-items: center;
+      }
+    .section1 {
+        flex-direction: column;
+        
+    }
+    .section1 img {
+        width: 369px;
+        height: 242px;
+    }
+    .section2 {
+        flex-direction: column;
+        
+    }
+    .section2 img {
+        width: 369px;
+        height: 242px;
+    }
+    .section3 {
+        flex-direction: column;
+    }
+    .section3 img {
+        width: 379px;
+        height: 252px;
+    }
+    .section-4 {
+        flex-direction: column;
+        width: 401px;
+    }
+    .section-4 img{
+        width: 379px;
+        height: 252px;
+    }
+    footer {
+        display: flex;
+        width: 125px;
+        height: 50px;
+        padding: 44px 134px 51px 133px;
+        justify-content: center;
+        align-items: center;
+    }
+    footer img {
+        width: 162px;
+        height: 45px;
+        flex-shrink: 0;
+    }
+}
+
+

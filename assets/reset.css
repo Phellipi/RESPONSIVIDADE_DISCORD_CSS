@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Raleway:ital,wght@0,400;1,300&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+h1 {
+    font-family: 'Luckiest Guy';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
